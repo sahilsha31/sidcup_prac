@@ -5,7 +5,6 @@ gsap.to("#nav",{
     scrollTrigger:{
         trigger:"#nav",
       scroller: "body",
-       //markers: true,
         start:"top -5%",
         end: "-=6%",
         scrub: 1.5,
@@ -17,7 +16,6 @@ gsap.to("#main",{
     scrollTrigger:{
         trigger:"#main",
         scroller: "body",
-        //markers: true,
         start:"top -15%",
         end: "top -40%",
         scrub: 2
@@ -67,7 +65,6 @@ gsap.from(".about_box img , .about_box p",{
     scrollTrigger: {
         trigger:".about_box",
         scroller:"body",
-        //markers:true,
         start:"top 60%",
         end: "top 58%",
         scrub:3
@@ -81,7 +78,6 @@ gsap.from(".card",{
     scrollTrigger: {
         trigger:".card",
         scroller:"body",
-        //markers:true,
         start:"top 60%",
         end: "top 58%",
         scrub:2
@@ -98,7 +94,6 @@ gsap.from(".quote-left", {
   scrollTrigger: {
     trigger: ".quote-left",
     scroller: "body",
-    markers: true,
     start: "top 70%",
     end: "top 40%",
     scrub: 1
@@ -113,7 +108,6 @@ gsap.from(".quote-right", {
   scrollTrigger: {
     trigger: ".quote-left", // 🔁 Use same trigger as .quote-left
     scroller: "body",
-    markers: true,
     start: "top 70%",        // 🔁 Exactly same start
     end: "top 40%",          // 🔁 Exactly same end
     scrub: 1
@@ -130,7 +124,6 @@ gsap.from("#page4 h1", {
     scrollTrigger: {
         trigger: "#page4 h1",
         scroller: "body",
-        markers: true,
         start: "top 85%",
         end: "top 80%",
         scrub: 4
